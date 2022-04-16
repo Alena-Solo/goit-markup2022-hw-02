@@ -61,7 +61,7 @@ body {
   line-height: 1.3;
   letter-spacing: 0.02em;
 }
-.header-link .link.current {
+.header-item .link.current {
   color: var(--accent-color);
 }
 .hrader-contact {
@@ -81,7 +81,7 @@ body {
 
   color: var(--title-text-color);
 }
-.hrader-contact :hover,
+.hrader-contact:hover,
 .hrader-contact:focus {
   color: var(--accent-color);
 }
@@ -195,6 +195,11 @@ body {
   background-color: var(--backgraund-team);
 
   color: var(--title-text-color);
+}
+.button:hover,
+:focus {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
 }
 
 .portfolio-item .link:hover,
