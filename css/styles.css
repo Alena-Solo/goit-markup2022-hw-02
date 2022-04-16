@@ -1,0 +1,219 @@
+/* колір основного тексту #212121 */
+/* колір другорядного тексту #757575 */
+/* колір mail tel footer rgba(255, 255, 255, 0.6); */
+/* заголовок hero та adress footer  #FFFFFF */
+/* фон hero та footer #2F303A */
+/* основний фон #E5E5E5 */
+/* фон наша команда #F5F4FA */
+/* акцент #2196F3 */
+
+:root {
+  --accent-color: #2196f3;
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --text-footer-contact: rgba(255, 255, 255, 0.6);
+  --background-hero-address: #2f303a;
+  --backgraund-main: #e5e5e5;
+  --backgraund-team: #f5f4fa;
+  --white-text-color: #ffffff;
+}
+body {
+  font-family: "Roboto", Ubuntu, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--backgraund-team);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.studio {
+  color: var(--title-text-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.header-link {
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+}
+.header-link .link.current {
+  color: var(--accent-color);
+}
+.hrader-contact {
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+.hrader-contact :hover,
+.hrader-contact:focus {
+  color: var(--accent-color);
+}
+.hero {
+  align-items: center;
+  text-align: center;
+  background-color: var(--background-hero-address);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white-text-color);
+}
+
+.feature-top-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.feature-text {
+  line-height: 1.7;
+  color: var(--primary-text-color);
+}
+.about {
+  background-color: var(--backgraund-team);
+}
+.about-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.team {
+  background-color: var(--backgraund-team);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--title-text-color);
+}
+
+.team.text {
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+
+  color: var(--primary-text-color);
+}
+.footer {
+  background-color: var(--background-hero-address);
+}
+
+.studio-footer {
+  color: var(--white-text-color);
+}
+.footer-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
+}
+
+.footer-link :hover,
+:focus {
+  color: var(--accent-color);
+}
+.footer-address-item {
+  line-height: 1.7;
+
+  color: var(--text-footer-contact);
+}
+/* Портфоліо */
+.portfolio {
+  background-color: var(--backgraund-main);
+}
+.button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--backgraund-team);
+
+  color: var(--title-text-color);
+}
+
+.portfolio-item .link:hover,
+:focus {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
